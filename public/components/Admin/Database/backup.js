@@ -1,4 +1,4 @@
-const get = fs.readFileSync('db/backup.json');
+const get = fs.readFileSync('../../../db/backup.json');
 const data = JSON.parse(get);
 const write = () => {
   fs.writeFileSync('backup.json', JSON.stringify(data));
