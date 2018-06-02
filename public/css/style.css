@@ -1,6 +1,6 @@
 body {
   color: #30c9a3;
-  font-family: 'Roboto', 'Arimo', Helvetica, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -13,10 +13,10 @@ header {
 }
 
 header > p {
+  font-weight: 600;
   text-align: right;
   font-size: 0.8rem;
   font-style: italic;
-  font-weight: 300;
   color: #e6f4ff;
   margin: 1em;
   padding: 1em;
@@ -37,7 +37,7 @@ header > p {
   -moz-box-shadow: 0px -1px 1px 1px rgba(20, 62, 107, 1);
   box-shadow: 0px -1px 1px 1px rgba(20, 62, 107, 1);
   background-color: #f5fcf9;
-  max-width: 100%;
+  width: 100%;
   height: 44vh;
   padding: 1vw;
   margin: -1vw;
@@ -48,7 +48,8 @@ header > p {
 }
 
 #wordForm {
-  width: 100%;
+  min-width: 50%;
+  max-width: 90%;
   height: 75%;
   cursor: none;
   display: flex;
@@ -58,60 +59,71 @@ header > p {
 }
 
 .btn-affirm {
-  font-size: 2rem;
-  font-weight: 200;
-  max-width: 25%;
-  height: auto;
+  text-align: left;
   cursor: pointer;
-  margin: 0.25rem;
   border: solid 1px #30c9a3;
   border-radius: 4px;
   color: #30c9a3;
-  padding: 1rem;
+  font-weight: medium;
+  font-size: 1.25rem;
+  text-decoration: none;
+  padding: 0.5rem;
+  margin: 0 0.2rem 0 0.2rem;
   background-color: #fafcfb;
   outline: none;
+  display: inline-block;
+  min-width: 15%;
+  max-width: 25%;
+  height: auto;
 }
 
-
 .word-box {
-  font-size: 2rem;
-  font-weight: 200;
+  min-width: 60%;
   max-width: 70%;
   height: auto;
-  padding: 1rem;
-  margin: 0.25rem;
+  font-weight: medium;
+  font-size: 1.25rem;
+  text-decoration: none;
+  padding: 0.5rem;
+  margin: 0 0.2rem 0 0.2rem;
   border: 1px solid #8fcfbf;
   border-radius: 4px;
   background-color: #fafcfb;
   color: #3b8cff;
+  display: inline-block;
+}
+
+input[type='text'].show {
+  color: #3b8cff;
+  -webkit-transition: color 2s ease;
+  -moz-transition: color 2s ease;
+  -ms-transition: color 2s ease;
+  -o-transition: color 2s ease;
+  transition: color 2s ease;
+}
+
+input[type='text'].hide {
+  color: #fafcfb;
+  -webkit-transition: color 1s ease;
+  -moz-transition: color 1s ease;
+  -ms-transition: color 1s ease;
+  -o-transition: color 1s ease;
+  transition: color 1s ease;
 }
 
 @media only screen and (max-width: 800px) {
   .neck > p {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
   header > p {
     font-size: 0.6rem;
-    font-weight: 200;
     margin: 0.75em;
     padding: 0.75em;
   }
-
   .btn-affirm {
-    font-weight: 500;
-    max-width: 25%;
-    font-size: 1.7rem;
-    margin: 0.5rem;
-    padding: 0.5rem;
-  }
-
-  .word-box {
-    font-weight: 500;
-    max-width: 70%;
-    font-size: 1.7rem;
-    margin: 0.5rem;
-    padding: 0.5rem;
+    min-width: 25%;
+    max-width: 35%;
   }
 }
 
@@ -127,20 +139,25 @@ header > p {
   }
 
   .btn-affirm {
-    font-weight: 200;
-    max-width: 30%;
-    font-size: 1.1rem;
-    margin: 0.25rem;
-    padding: 0.5rem;
+    font-size: 1rem;
+    padding: 0.2rem;
+    margin: 0 0.15rem 0.1rem 0.15rem;
   }
 
-
-
   .word-box {
-    font-weight: 200;
-    max-width: 65%;
-    font-size: 1.1rem;
-    margin: 0.25rem;
-    padding: 0.5rem;
+    font-size: 1rem;
+    padding: 0.2rem;
+    margin: 0 0.15rem 0.1rem 0.15rem;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .btn-affirm {
+    font-size: 1.2rem;
+    min-width: 10%;
+    max-width: 20%;
+  }
+  .word-box {
+    font-size: 1.2rem;
   }
 }
