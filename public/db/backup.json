@@ -1,12 +1,282 @@
 [
-    {
-      "word": "kind",
-      "data": {
-        "used": 0,
-        "liked": 0,
-        "disliked": 0,
-        "shared": 0,
-        "averageTime": 0
-      }
+  {
+    "word": "kind",
+    "data": {
+      "used": 0,
+      "liked": 0,
+      "disliked": 0,
+      "shared": 0,
+      "averageTime": 0
     }
-];
+  },
+  {
+    "word": "loved",
+    "data": {
+      "used": 0,
+      "liked": 0,
+      "disliked": 0,
+      "shared": 0,
+      "averageTime": 0
+    }
+  },
+  {
+    "word": "friendly",
+    "data": {
+      "used": 0,
+      "liked": 0,
+      "disliked": 0,
+      "shared": 0,
+      "averageTime": 0
+    }
+  },
+  {
+    "word": "smart",
+    "data": {
+      "used": 0,
+      "liked": 0,
+      "disliked": 0,
+      "shared": 0,
+      "averageTime": 0
+    }
+  },
+  {
+    "word": "enchanting",
+    "data": {
+      "used": 0,
+      "liked": 0,
+      "disliked": 0,
+      "shared": 0,
+      "averageTime": 0
+    }
+  },
+  {
+    "word": "lovely",
+    "data": {
+      "used": 0,
+      "liked": 0,
+      "disliked": 0,
+      "shared": 0,
+      "averageTime": 0
+    }
+  },
+  {
+    "word": "refreshing",
+    "data": {
+      "used": 0,
+      "liked": 0,
+      "disliked": 0,
+      "shared": 0,
+      "averageTime": 0
+    }
+  },
+  {
+    "word": "unique",
+    "data": {
+      "used": 0,
+      "liked": 0,
+      "disliked": 0,
+      "shared": 0,
+      "averageTime": 0
+    }
+  },
+  {
+    "word": "caring",
+    "data": {
+      "used": 0,
+      "liked": 0,
+      "disliked": 0,
+      "shared": 0,
+      "averageTime": 0
+    }
+  },
+  {
+    "word": "trying",
+    "data": {
+      "used": 0,
+      "liked": 0,
+      "disliked": 0,
+      "shared": 0,
+      "averageTime": 0
+    }
+  },
+  {
+    "word": "present",
+    "data": {
+      "used": 0,
+      "liked": 0,
+      "disliked": 0,
+      "shared": 0,
+      "averageTime": 0
+    }
+  },
+  {
+    "word": "alive",
+    "data": {
+      "used": 0,
+      "liked": 0,
+      "disliked": 0,
+      "shared": 0,
+      "averageTime": 0
+    }
+  },
+  {
+    "word": "breathing",
+    "data": {
+      "used": 0,
+      "liked": 0,
+      "disliked": 0,
+      "shared": 0,
+      "averageTime": 0
+    }
+  },
+  {
+    "word": "the only you",
+    "data": {
+      "used": 0,
+      "liked": 0,
+      "disliked": 0,
+      "shared": 0,
+      "averageTime": 0
+    }
+  },
+  {
+    "word": "sincere",
+    "data": {
+      "used": 0,
+      "liked": 0,
+      "disliked": 0,
+      "shared": 0,
+      "averageTime": 0
+    }
+  },
+  {
+    "word": "loyal",
+    "data": {
+      "used": 0,
+      "liked": 0,
+      "disliked": 0,
+      "shared": 0,
+      "averageTime": 0
+    }
+  },
+  {
+    "word": "engaging",
+    "data": {
+      "used": 0,
+      "liked": 0,
+      "disliked": 0,
+      "shared": 0,
+      "averageTime": 0
+    }
+  },
+  {
+    "word": "independent",
+    "data": {
+      "used": 0,
+      "liked": 0,
+      "disliked": 0,
+      "shared": 0,
+      "averageTime": 0
+    }
+  },
+  {
+    "word": "capable",
+    "data": {
+      "used": 0,
+      "liked": 0,
+      "disliked": 0,
+      "shared": 0,
+      "averageTime": 0
+    }
+  },
+  {
+    "word": "creative",
+    "data": {
+      "used": 0,
+      "liked": 0,
+      "disliked": 0,
+      "shared": 0,
+      "averageTime": 0
+    }
+  },
+  {
+    "word": "intuitive",
+    "data": {
+      "used": 0,
+      "liked": 0,
+      "disliked": 0,
+      "shared": 0,
+      "averageTime": 0
+    }
+  },
+  {
+    "word": "perceptive",
+    "data": {
+      "used": 0,
+      "liked": 0,
+      "disliked": 0,
+      "shared": 0,
+      "averageTime": 0
+    }
+  },
+  {
+    "word": "kind-hearted",
+    "data": {
+      "used": 0,
+      "liked": 0,
+      "disliked": 0,
+      "shared": 0,
+      "averageTime": 0
+    }
+  },
+  {
+    "word": "purposeful",
+    "data": {
+      "used": 0,
+      "liked": 0,
+      "disliked": 0,
+      "shared": 0,
+      "averageTime": 0
+    }
+  },
+  {
+    "word": "intentional",
+    "data": {
+      "used": 0,
+      "liked": 0,
+      "disliked": 0,
+      "shared": 0,
+      "averageTime": 0
+    }
+  },
+  {
+    "word": "beautiful",
+    "data": {
+      "used": 0,
+      "liked": 0,
+      "disliked": 0,
+      "shared": 0,
+      "averageTime": 0
+    }
+  },
+  {
+    "word": "inspiring",
+    "data": {
+      "used": 0,
+      "liked": 0,
+      "disliked": 0,
+      "shared": 0,
+      "averageTime": 0
+    }
+  },
+  {
+    "word": "captivating",
+    "data": {
+      "used": 0,
+      "liked": 0,
+      "disliked": 0,
+      "shared": 0,
+      "averageTime": 0
+    }
+  }
+]
